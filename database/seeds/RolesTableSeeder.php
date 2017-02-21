@@ -24,7 +24,7 @@ class RolesTableSeeder extends Seeder
 	            'name' => 'Admin',
 	            'slug' => 'admin',
 	            'description' => 'Admin Role',
-	            'level' => 1,
+	            'level' => 5,
         	]);
 	    }
 
@@ -33,9 +33,17 @@ class RolesTableSeeder extends Seeder
 	            'name' => 'User',
 	            'slug' => 'user',
 	            'description' => 'User Role',
-	            'level' => 5,
+	            'level' => 1,
 	        ]);
+	    }
 
+    	if (Role::where('name', '=', 'Unverified')->first() === null) {
+	        $userRole = Role::create([
+	            'name' => 'Unverified',
+	            'slug' => 'unverified',
+	            'description' => 'Unverified Role',
+	            'level' => 0,
+	        ]);
 	    }
 
     }
