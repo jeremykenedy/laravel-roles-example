@@ -1,5 +1,5 @@
 # lara-users
-An example of [jeremykenedy/laravel-roles](https://github.com/jeremykenedy/laravel-roles-example) Laravel 5.4+ roles package.
+An example of [jeremykenedy/laravel-roles](https://github.com/jeremykenedy/laravel-roles-example), a Laravel 5.4+ roles package.
 
 ## Setup
 1. `sudo git clone https://github.com/jeremykenedy/laravel-roles-example.git laravel-roles-example`
