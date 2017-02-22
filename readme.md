@@ -1,8 +1,8 @@
 # lara-users
-== a work in progress ==
+An example of [jeremykenedy/laravel-roles](https://github.com/jeremykenedy/laravel-roles-example) Laravel 5.4+ roles package.
 
 ## Setup
-1. `sudo git clone `
+1. `sudo git clone https://github.com/jeremykenedy/laravel-roles-example.git laravel-roles-example`
 2. `sudo composer update`
 3. `sudo cp .env.example .env`
 	* Configure `.env` file
