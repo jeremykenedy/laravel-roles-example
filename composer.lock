@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c23c44e2989f657df62a24c09166b2e0",
-    "content-hash": "f5a4e314b78725b1d1c46ae5903fa1e1",
+    "hash": "960811f6a90ef27953a1cbede257413f",
+    "content-hash": "1ee3f309b63199af03f3dddb267a17a9",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -235,6 +235,56 @@
                 }
             ],
             "time": "2015-04-20 18:58:01"
+        },
+        {
+            "name": "jeremykenedy/laravel-roles",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeremykenedy/laravel-roles.git",
+                "reference": "35beda2c286f6a2c4566ed41a191fbc039cc61cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeremykenedy/laravel-roles/zipball/35beda2c286f6a2c4566ed41a191fbc039cc61cb",
+                "reference": "35beda2c286f6a2c4566ed41a191fbc039cc61cb",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.4.*",
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeremykenedy\\LaravelRoles\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Bičan",
+                    "email": "romanbican@seznam.cz"
+                },
+                {
+                    "name": "Jeremy Kenedy",
+                    "email": "jeremykenedy@gmail.com"
+                },
+                {
+                    "name": "Ultraware"
+                }
+            ],
+            "description": "Powerful package for handling roles and permissions in Laravel 5.4+",
+            "keywords": [
+                "acl",
+                "levels",
+                "permissions",
+                "roles"
+            ],
+            "time": "2017-02-22 06:21:50"
         },
         {
             "name": "laravel/framework",
@@ -1809,58 +1859,6 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2016-09-20 12:50:39"
-        },
-        {
-            "name": "ultraware/roles",
-            "version": "5.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ultraware/roles.git",
-                "reference": "00b14f8ffda80d795429be4757a8e16b2ef23576"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ultraware/roles/zipball/00b14f8ffda80d795429be4757a8e16b2ef23576",
-                "reference": "00b14f8ffda80d795429be4757a8e16b2ef23576",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "5.4.*",
-                "php": ">=5.6.4"
-            },
-            "require-dev": {
-                "mockery/mockery": "^0.9.6",
-                "orchestra/database": "@dev",
-                "orchestra/testbench": "@dev",
-                "phpunit/phpunit": "^5.6",
-                "satooshi/php-coveralls": "1.0.*",
-                "sebastian/environment": "2.0.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ultraware\\Roles\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ultraware"
-                }
-            ],
-            "description": "Powerful package for handling roles and permissions in Laravel 5.",
-            "keywords": [
-                "acl",
-                "auth",
-                "illuminate",
-                "laravel",
-                "permissions",
-                "roles"
-            ],
-            "time": "2017-01-25 07:53:11"
         },
         {
             "name": "vlucas/phpdotenv",

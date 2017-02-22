@@ -46,7 +46,7 @@ class Handler extends ExceptionHandler
     public function render($request, Exception $exception)
     {
 
-        if ($exception instanceof \Ultraware\Roles\Exceptions\LevelDeniedException) {
+        if ($exception instanceof \jeremykenedy\LaravelRoles\Exceptions\LevelDeniedException) {
             // you can for example flash message, redirect...
 
             return redirect()->back();

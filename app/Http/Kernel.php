@@ -56,8 +56,8 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-        'role' => \Ultraware\Roles\Middleware\VerifyRole::class,
-        'permission' => \Ultraware\Roles\Middleware\VerifyPermission::class,
-        'level' => \Ultraware\Roles\Middleware\VerifyLevel::class,
+        'role' => \jeremykenedy\LaravelRoles\Middleware\VerifyRole::class,
+        'permission' => \jeremykenedy\LaravelRoles\Middleware\VerifyPermission::class,
+        'level' => \jeremykenedy\LaravelRoles\Middleware\VerifyLevel::class,
     ];
 }

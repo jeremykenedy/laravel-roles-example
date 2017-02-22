@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
-use Ultraware\Roles\Models\Role;
+use jeremykenedy\LaravelRoles\Models\Role;
 use App\Http\Controllers\Controller;
-use Ultraware\Roles\Models\Permission;
+use jeremykenedy\LaravelRoles\Models\Permission;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
