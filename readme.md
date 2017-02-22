@@ -1,3 +1,84 @@
+# lara-users
+== a work in progress ==
+
+## Setup
+1. `sudo git clone `
+2. `sudo composer update`
+3. `sudo cp .env.example .env`
+	* Configure `.env` file
+4. `sudo php artisan key:generate`
+5. `sudo php artisan migrate`
+6. `sudo php artisan db:seed`
+
+## Seeds
+#### Users Seeded
+|Property|Value|
+|----|----|
+|Username| Admin|
+|Email| jeremykenedy@gmail.com|
+|Password| password|
+|Role| Admin|
+
+|Property|Value|
+|----|----|
+|Username| User|
+|Email| jeremy@jeremykenedy.com|
+|Password| password|
+|Role| Admin|
+
+#### Roles Seeded
+|Property|Value|
+|----|----|
+|Name| Admin|
+|Slug| admin|
+|Description| Admin Role|
+|Level| 5|
+
+|Property|Value|
+|----|----|
+|Name| User|
+|Slug| user|
+|Description| User Role|
+|Level| 1|
+
+|Property|Value|
+|----|----|
+|Name| Unverified|
+|Slug| unverified|
+|Description| Unverified Role|
+|Level| 0|
+
+#### Permissions Seeded:
+|Property|Value|
+|----|----|
+|name|Can View Users|
+|slug|view.users|
+|description|Can view users|
+|model|Permission|
+
+|Property|Value|
+|----|----|
+|name|Can Create Users|
+|slug|create.users|
+|description|Can create new users|
+|model|Permission|
+
+|Property|Value|
+|----|----|
+|name|Can Edit Users|
+|slug|edit.users|
+|description|Can edit users|
+|model|Permission|
+
+|Property|Value|
+|----|----|
+|name|Can Delete Users|
+|slug|delete.users|
+|description|Can delete users|
+|model|Permission|
+
+---
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">

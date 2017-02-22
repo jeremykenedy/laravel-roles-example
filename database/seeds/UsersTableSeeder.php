@@ -29,7 +29,7 @@ class UsersTableSeeder extends Seeder
         if (User::where('email', '=', 'jeremykenedy@gmail.com')->first() === null) {
 
 	        $newUser = User::create([
-	            'name' => 'Jeremy',
+	            'name' => 'Admin',
 	            'email' => 'jeremykenedy@gmail.com',
 	            'password' => bcrypt('password'),
 	        ]);
@@ -44,7 +44,7 @@ class UsersTableSeeder extends Seeder
         if (User::where('email', '=', 'jeremy@jeremykenedy.com')->first() === null) {
 
 	        $newUser = User::create([
-	            'name' => 'Jeremy',
+	            'name' => 'User',
 	            'email' => 'jeremy@jeremykenedy.com',
 	            'password' => bcrypt('password'),
 	        ]);
