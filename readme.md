@@ -24,7 +24,7 @@ An example of [jeremykenedy/laravel-roles](https://github.com/jeremykenedy/larav
 |Username| User|
 |Email| jeremy@jeremykenedy.com|
 |Password| password|
-|Role| Admin|
+|Role| User|
 
 #### Roles Seeded
 |Property|Value|
